@@ -20,10 +20,8 @@
 - Em 1989 por Tim Berners-Lee foi feita a WWW (World Wide Web)
 
 - Rede de internet pode ser:
-
-    - Privada
-
-    - Pública
+    - Privada
+    - Pública
 
 ### Identificando dispositivos e redes ###
 
