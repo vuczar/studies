@@ -9,6 +9,7 @@
 ### O que é são? ###
 
 - Rede é um sistema de conexão entre pontos (computadores)
+
 ## **Intro a LAN** ##
 
 ### O que é internet?
@@ -25,16 +26,16 @@
 
 ### Identificando dispositivos e redes ###
 
-> Para que a comunicação seja organizada é preciso identificar os elementos
+Para que a comunicação seja organizada é preciso identificar os elementos
 
 **Endereço de IP**
 
-   - Mais conhecido como **I**nternet **P**rotocol
-   - Usado para identificar o host dentro de uma rede
-   - É um padrão de números em **Octetos**
+- Mais conhecido como **I**nternet **P**rotocol
+- Usado para identificar o host dentro de uma rede
+- É um padrão de números em **Octetos**
    
-   ![[Pasted image 20250804230012.png]]
-
+   <img src="Pasted image 20250804230012.png">
+   
 -  IP pode ser **público ou privado**
 
 | **Device Name** | **IP Address** | **IP Address Type** |
@@ -44,14 +45,14 @@
 | CMNatic-PC      | 192.168.1.74   | Private             |
 | CMNatic-PC      | 86.157.52.21   | Public              |
 
-![[Pasted image 20250804230602.png]]
+<img src= "Pasted image 20250804230602.png">
 
--  O IP **Público** é fornecido pela sua **ISP** (Internet Service Provider)
--  Mais conhecida como sua internet (Vivo, TIM, Oi, Claro)
+- O IP **Público** é fornecido pela sua **ISP** (Internet Service Provider)
+- Mais conhecida como sua internet (Vivo, TIM, Oi, Claro)
 - O IP **Privado** só pode ser usado por sua rede local
 
 -  Existem 2 versões de IP, o **IPv4** ou **IPv6**
-![[Pasted image 20250804231341.png]]
+<img src= "Pasted image 20250804231341.png">
 
 **MAC Address**
 -  Dispositivos conectados a internet, possuem uma interface de rede
@@ -59,7 +60,7 @@
 -  Chama-se endereço MAC (Media Access Control)
 -  12 caracteres em hexadecimal separados em 2
 -  6 primeiros caracteres são da fabricante e os outros 6 são unicos
-- ![[Pasted image 20250804232437.png]]
+<img src='Pasted image 20250804232437.png'>
 
 **PING** 
 -  Ping é uma ferramenta de rede
