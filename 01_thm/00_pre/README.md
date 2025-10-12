@@ -3,14 +3,12 @@
 
 > *EN This document is a summary made during the Pre-Security THM course. These are personal notes.*
 ---
-# **Pre-Security** #
+# **Pre-Security** 
 ---
-## **O que são redes?** ##
-### O que é são? ###
+## **O que são redes?** 
+### O que é são? 
 
 - Rede é um sistema de conexão entre pontos (computadores)
-
-## **Intro a LAN** ##
 
 ### O que é internet?
 
@@ -24,18 +22,18 @@
     - Privada
     - Pública
 
-### Identificando dispositivos e redes ###
+### Identificando dispositivos e redes
 
-Para que a comunicação seja organizada é preciso identificar os elementos
+> Para que a comunicação seja organizada é preciso identificar os elementos
 
 **Endereço de IP**
 
-- Mais conhecido como **I**nternet **P**rotocol
-- Usado para identificar o host dentro de uma rede
-- É um padrão de números em **Octetos**
+   - Mais conhecido como **I**nternet **P**rotocol
+   - Usado para identificar o host dentro de uma rede
+   - É um padrão de números em **Octetos**
    
-   <img src="Pasted image 20250804230012.png">
-   
+   ![[files/Pasted image 20250804230012.png]]
+
 -  IP pode ser **público ou privado**
 
 | **Device Name** | **IP Address** | **IP Address Type** |
@@ -45,14 +43,14 @@ Para que a comunicação seja organizada é preciso identificar os elementos
 | CMNatic-PC      | 192.168.1.74   | Private             |
 | CMNatic-PC      | 86.157.52.21   | Public              |
 
-<img src= "Pasted image 20250804230602.png">
+![[files/Pasted image 20250804230602.png]]
 
-- O IP **Público** é fornecido pela sua **ISP** (Internet Service Provider)
-- Mais conhecida como sua internet (Vivo, TIM, Oi, Claro)
+-  O IP **Público** é fornecido pela sua **ISP** (Internet Service Provider)
+-  Mais conhecida como sua internet (Vivo, TIM, Oi, Claro)
 - O IP **Privado** só pode ser usado por sua rede local
 
 -  Existem 2 versões de IP, o **IPv4** ou **IPv6**
-<img src= "Pasted image 20250804231341.png">
+![[files/Pasted image 20250804231341.png]]
 
 **MAC Address**
 -  Dispositivos conectados a internet, possuem uma interface de rede
@@ -60,7 +58,7 @@ Para que a comunicação seja organizada é preciso identificar os elementos
 -  Chama-se endereço MAC (Media Access Control)
 -  12 caracteres em hexadecimal separados em 2
 -  6 primeiros caracteres são da fabricante e os outros 6 são unicos
-<img src='Pasted image 20250804232437.png'>
+![[files/Pasted image 20250804232437.png]]
 
 **PING** 
 -  Ping é uma ferramenta de rede
@@ -71,6 +69,12 @@ Para que a comunicação seja organizada é preciso identificar os elementos
 
 
 ***STOPPED***
+
+## **Intro a LAN** 
+
+### Local Area Network (LAN) Topologies
+
+LAN geralmente mais conhecido como rede local, tem sido estudada e testada por muitos anos, assim quando falamos de topologia, falamos do design o
 
 ## Modelo OSI ##
 
