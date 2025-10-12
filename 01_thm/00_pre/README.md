@@ -2,11 +2,8 @@
     <p><em>PT Este documento é um resumo feito durante o curso do THM de Pré-Segurança. São notas pessoais.</em></p>
     <p><em>EN This document is a summary made during the Pre-Security THM course. These are personal notes.</em></p>
 </blockquote>
-<hr>
 
 <h1 align="center">Pre-Security</h1> 
-
-<hr>
 
 <h2><b>O que são redes?</b></h2>
 
