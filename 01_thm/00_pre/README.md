@@ -138,7 +138,7 @@
 
 <strong>IPv6 e suas caracteristicas</strong>
 
-<table border="1" style="border-collapse: collapse; text-align: center; width: 80%;">
+<table border="1" style="border-collapse: collapse; text-align: center; width: 80%">
     <thead>
         <tr>
             <th colspan="3" style="text-align: center;">IPv6 Address Types</th>
@@ -200,6 +200,8 @@
     <li>Mostra a velocidade também</li>
 </ul>
 
+<hr>
+
 <h3>Intro to Lan</h3>
 <h4>Topologies</h4>
 <p>Topologia é quando falamos do design ou arquitetura de redes, entre as mais famosas topologias estão:</p>
@@ -250,8 +252,69 @@
 	<img src="files/topology.png" width="199%" alt="">
 </ul>
 
-<h4></h4>
-<h4></h4>
+<br><br>
+
+<h4>A PRIMER ON SUBNETTING</h4>
+<ul>
+    <li>Definição: subrede é uma forma de dividir a rede em partes menores</li>
+    <li>Objetivo: é organizar e gerenciar dispositivos dentro de uma rede.</li>
+    <li>Exemplo: Dividir os dispositivos de uma empresa por Contablilidade, Financeiro e Juridico</li>
+</ul>
+
+<table border="1">
+    <thead style="font-weight: bold;">
+       <tr>
+        <td>Tipo</td>
+        <td>Propósito</td>
+        <td>Exemplo</td>
+       </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Endereço de Rede</td>
+            <td>Identifica o início da rede. Indica a existência da rede.</td>
+            <td>192.168.1.0</td>
+        </tr>
+        <tr>
+            <td>Endereço de Host</td>
+            <td>Identifica um dispositivo específico dentro da sub-rede.</td>
+            <td>192.168.1.100</td>
+        </tr>
+        <tr>
+            <td>Gateway Padrão</td>
+            <td>Dispositivo que envia dados para fora da rede local (ex: para a Internet).</td>
+            <td>192.168.1.254</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>ARP - Address resolution protocol</h4>
+<ul>
+    <li>Definição: É um protocolo que associa endereços MAC a partir do IP</li>
+    <li>Objetivo: Permitir que dispositivos se identifiquem e se comuniquem</li>
+    <li>Cada dispositivo mantém uma tabela de ARP (cache) com os mapeamentos IP ↔ MAC.</li>
+    <li>Quando um dispositivo quer se comunicar com outro:
+        <ul>
+            <li>Envia uma ARP Request: "Quem tem este IP?"</li>
+            <li>O dispositivo que possui o IP responde com uma ARP Reply: "Eu tenho, este é meu MAC."</li>
+            <li>O mapeamento é armazenado no cache para uso futuro.</li>
+        </ul>
+    </li>
+</ul>
+<br>
+<p>Além disso existem 2 tipos de mensagem ARP, a Reply e a Request</p>
+<ul>
+    <li>ARP Request: mensagem broadcast para toda a rede</li>
+    <li>ARP Reply: resposta unicast com o endereço MAC</li>
+</ul>
+
+<img src="files/arp.png" alt="" width="60%">
+
+<hr>
+
+<h4>DHCP - Dynamic Host Configuration Protocol</h4>
+
+
 <h4></h4>
 
 <h3>OSI Model</h3>
