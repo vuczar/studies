@@ -201,9 +201,53 @@
 </ul>
 
 <h3>Intro to Lan</h3>
-<h4>Local Area Network (LAN) Topologies</h4>
+<h4>Topologies</h4>
+<p>Topologia é quando falamos do design ou arquitetura de redes, entre as mais famosas topologias estão:</p>
 
-    <p>LAN geralmente mais conhecido como rede local, tem sido estudada e testada por muitos anos, assim quando falamos de topologia, falamos do design o</p>
+<ul>
+    <li><strong>Topologia em Barramento</strong>
+      <ul>
+        <li>Todos os dispositivos conectados a um único cabo backbone.</li>
+        <li>Simples e barata.</li>
+        <li>Difícil de diagnosticar falhas pois toda comunicação passa por um único caminho.</li>
+      </ul>
+    </li>
+    <li><strong>Topologia em Anel</strong>
+      <ul>
+        <li>Dispositivos conectados em um círculo fechado.</li>
+        <li>Dados circulam em uma única direção.</li>
+        <li>Uma falha pode afetar toda a rede.</li>
+      </ul>
+    </li>
+    <li><strong>Topologia em Estrela</strong>
+      <ul>
+        <li>Todos os dispositivos conectados a um ponto central (hub/switch).</li>
+        <li>Fácil de gerenciar e expandir.</li>
+        <li>Se o ponto central falhar, a rede para.</li>
+      </ul>
+    </li>
+    <li><strong>Topologia em Malha</strong>
+      <ul>
+        <li>Cada dispositivo conectado a todos os outros.</li>
+        <li>Alta redundância e confiabilidade.</li>
+        <li>Custo elevado e complexidade maior.</li>
+      </ul>
+    </li>
+    <li><strong>Topologia em Árvore (Hierárquica)</strong>
+      <ul>
+        <li>Combinação de topologias em estrela.</li>
+        <li>Estrutura em camadas.</li>
+        <li>Boa escalabilidade.</li>
+      </ul>
+    </li>
+    <li><strong>Topologia Híbrida</strong>
+      <ul>
+        <li>Combinação de duas ou mais topologias.</li>
+        <li>Flexível e adaptável.</li>
+        <li>Pode ser complexa de configurar.</li>
+      </ul>
+	</li>
+</ul>
 
 <h4></h4>
 <h4></h4>
