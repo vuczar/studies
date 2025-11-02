@@ -314,14 +314,40 @@
 
 <h4>DHCP - Dynamic Host Configuration Protocol</h4>
 
+<p><strong>Definição:</strong> Protocolo que automatiza a atribuição de endereços IP e outras configurações de rede para dispositivos.</p>
 
-<h4></h4>
+<p><strong>Objetivo:</strong> Facilitar a conexão de dispositivos à rede sem configuração manual.</p>
 
+<p><em>Analogia:</em> Como um recepcionista que entrega um número de quarto (IP) para cada hóspede (dispositivo) que chega ao hotel (rede).</p>
+
+<p><strong>Funcionamento:</strong></p>
+<ul>
+<li>Dispositivo envia uma <em>DHCP Discover</em> para encontrar um servidor DHCP.</li>
+<li>Servidor responde com <em>DHCP Offer</em> oferecendo um IP disponível.</li>
+<li>Dispositivo aceita com <em>DHCP Request</em>.</li>
+<li>Servidor confirma com <em>DHCP Acknowledgment</em>.</li>
+</ul>
+
+<p><strong>Informações atribuídas:</strong></p>
+<ul>
+<li>Endereço IP</li>
+<li>Máscara de sub-rede</li>
+<li>Gateway padrão</li>
+<li>Servidores DNS</li>
+</ul>
+
+<p><strong>Exemplo prático:</strong> Ao conectar um celular ao Wi-Fi, ele recebe automaticamente um IP via DHCP.</p>
+
+<p><strong>Diagrama ilustrativo:</strong></p>
+<img src="files/dhcp.png" alt="Diagrama DHCP" width="400">
+<hr>
 <h3>OSI Model</h3>
 <h4></h4>
+<hr>
 <h4></h4>
+<hr>
 <h4></h4>
-
+<hr>
 <h3>Packets & Frames</h3>
 <h4></h4>
 <h4></h4>
