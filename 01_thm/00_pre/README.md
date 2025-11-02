@@ -247,6 +247,7 @@
         <li>Pode ser complexa de configurar.</li>
       </ul>
 	</li>
+	<img src="files/topology.png" width="199%" alt="">
 </ul>
 
 <h4></h4>
