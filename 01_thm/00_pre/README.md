@@ -342,6 +342,70 @@
 <img src="files/dhcp.png" alt="Diagrama DHCP" width="400">
 <hr>
 <h3>OSI Model</h3>
+
+<h3>Modelo OSI – Detalhado</h3>
+
+<p><strong>O que é?</strong><br>
+O <em>Modelo OSI (Open Systems Interconnection)</em> é um padrão que define como os sistemas de comunicação devem interagir em redes. Ele divide o processo em <strong>7 camadas</strong>, cada uma com funções específicas, garantindo interoperabilidade entre diferentes tecnologias.
+</p>
+
+<h3>Camadas do Modelo OSI</h3>
+<ul>
+<li><strong>Layer 1 – Physical (Física)</strong><br>
+    <em>Função:</em> Responsável pela transmissão física dos bits pelo meio.<br>
+    <em>Detalhes:</em> Define características elétricas, mecânicas e funcionais.<br>
+    <em>Exemplos:</em> Cabos (UTP, fibra óptica), conectores, hubs, sinais elétricos.
+</li>
+
+<li><strong>Layer 2 – Data Link (Enlace de Dados)</strong><br>
+    <em>Função:</em> Garante comunicação livre de erros entre dispositivos diretamente conectados.<br>
+    <em>Detalhes:</em> Controle de acesso ao meio, detecção/correção de erros, endereçamento físico (MAC).<br>
+    <em>Exemplos:</em> Switches, protocolos Ethernet, PPP, ARP.
+</li>
+
+<li><strong>Layer 3 – Network (Rede)</strong><br>
+    <em>Função:</em> Responsável pelo roteamento e endereçamento lógico.<br>
+    <em>Detalhes:</em> Define como os pacotes são encaminhados entre redes diferentes.<br>
+    <em>Exemplos:</em> IP (IPv4/IPv6), roteadores, ICMP.
+</li>
+
+<li><strong>Layer 4 – Transport (Transporte)</strong><br>
+    <em>Função:</em> Garante entrega confiável dos dados fim a fim.<br>
+    <em>Detalhes:</em> Controle de fluxo, segmentação, retransmissão em caso de erro.<br>
+    <em>Exemplos:</em> TCP (confiável), UDP (rápido, sem garantia).
+</li>
+
+<li><strong>Layer 5 – Session (Sessão)</strong><br>
+    <em>Função:</em> Gerencia sessões de comunicação entre aplicações.<br>
+    <em>Detalhes:</em> Estabelece, mantém e encerra sessões; sincronização.<br>
+    <em>Exemplos:</em> Protocolos de login, RPC.
+</li>
+
+<li><strong>Layer 6 – Presentation (Apresentação)</strong><br>
+    <em>Função:</em> Traduz, formata e criptografa dados para a camada de aplicação.<br>
+    <em>Detalhes:</em> Conversão de formatos, compressão, criptografia.<br>
+    <em>Exemplos:</em> SSL/TLS, JPEG, MP3.
+</li>
+
+<li><strong>Layer 7 – Application (Aplicação)</strong><br>
+    <em>Função:</em> Interface direta com o usuário e serviços de rede.<br>
+    <em>Detalhes:</em> Fornece acesso aos recursos da rede.<br>
+    <em>Exemplos:</em> HTTP, FTP, SMTP, DNS.
+</li>
+</ul>
+
+<h3>Analogia para Fixar</h3>
+<p>Pense em enviar uma carta:</p>
+<ul>
+<li><strong>Física:</strong> Estrada por onde o caminhão passa.</li>
+<li><strong>Enlace:</strong> Caminhão que leva a carta.</li>
+<li><strong>Rede:</strong> Escolha da rota.</li>
+<li><strong>Transporte:</strong> Garantia que a carta chega intacta.</li>
+<li><strong>Sessão:</strong> Conversa entre remetente e destinatário.</li>
+<li><strong>Apresentação:</strong> Tradução da linguagem da carta.</li>
+<li><strong>Aplicação:</strong> A carta em si.</li>
+</ul>
+
 <h4></h4>
 <hr>
 <h4></h4>
