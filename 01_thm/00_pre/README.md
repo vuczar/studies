@@ -342,10 +342,7 @@
 <img src="files/dhcp.png" alt="Diagrama DHCP" width="400">
 <hr>
 <h3>OSI Model</h3>
-
-<h3>Modelo OSI – Detalhado</h3>
-
-<p><strong>O que é?</strong><br>
+<p><strong>O que é ?</strong><br>
 O <em>Modelo OSI (Open Systems Interconnection)</em> é um padrão que define como os sistemas de comunicação devem interagir em redes. Ele divide o processo em <strong>7 camadas</strong>, cada uma com funções específicas, garantindo interoperabilidade entre diferentes tecnologias.
 </p>
 
@@ -405,17 +402,18 @@ O <em>Modelo OSI (Open Systems Interconnection)</em> é um padrão que define co
 <li><strong>Apresentação:</strong> Tradução da linguagem da carta.</li>
 <li><strong>Aplicação:</strong> A carta em si.</li>
 </ul>
-
-<h4></h4>
-<hr>
-<h4></h4>
-<hr>
-<h4></h4>
+<table border="2" style="align-items: center; text-align: center">
+    <thead><tr><td><strong>Ilustração</strong></td></tr></thead>
+    <tbody><tr><td><img src="files/osi_model.png" alt=""></td></tr></tbody>
+</table>
 <hr>
 <h3>Packets & Frames</h3>
 <h4></h4>
+<hr>
 <h4></h4>
+<hr>
 <h4></h4>
+<hr>
 
 <h3>Extending Your Network</h3>
 <h4></h4>
