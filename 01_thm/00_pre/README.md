@@ -34,45 +34,93 @@
     <li>É um padrão de números em <strong>Octetos</strong></li>
 </ul>
 
-<img src="files/Pasted image 20250804230012.png" alt="Exemplo de endereço IP com octetos"  width="60%">
+<img src="files/img01.png" alt="Exemplo de endereço IP com octetos"  width="60%">
 
 <br><br>
 
 <strong>IP pode ser <em>público ou privado</em></strong>
 
-<table>
+<p>Existe um padrão entre ip's públicos e privados, cada um com suas características</p>
+
+<table border="1" style="border-collapse: collapse; text-align: center;">
     <thead>
         <tr>
-            <th><strong>Device Name</strong></th>
-            <th><strong>IP Address</strong></th>
-            <th><strong>IP Address Type</strong></th>
+            <th colspan="3" style="text-align: center;">RFC 1918 - Private Addresses</th>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <th>Start</th>
+            <th>End</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>DESKTOP-KJE57FD</td>
-            <td>192.168.1.77</td>
-            <td>Private</td>
+            <td>A</td>
+            <td>10.0.0.0</td>
+            <td>10.255.255.255</td>
         </tr>
         <tr>
-            <td>DESKTOP-KJE57FD</td>
-            <td>86.157.52.21</td>
-            <td>Public</td>
+            <td>B</td>
+            <td>172.16.0.0</td>
+            <td>172.31.255.255</td>
         </tr>
         <tr>
-            <td>CMNatic-PC</td>
-            <td>192.168.1.74</td>
-            <td>Private</td>
-        </tr>
-        <tr>
-            <td>CMNatic-PC</td>
-            <td>86.157.52.21</td>
-            <td>Public</td>
+            <td>C</td>
+            <td>192.168.0.0</td>
+            <td>192.168.255.255</td>
         </tr>
     </tbody>
 </table>
 
-<img src="files/Pasted image 20250804230602.png" alt="Diagrama mostrando a diferença entre IP público e privado">
+<table border="1" style="text-align: center;">
+    <thead>
+        <tr>
+            <th colspan="5" style="text-align: center;">IP Public Addresses</th>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <th>IP Ranges</th>
+            <th>Hosts per Network</th>
+            <th>Default Subnet Mask</th>
+            <th>Slash Notation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A</td>
+            <td>1 - 126</td>
+            <td>16,777,214</td>
+            <td>255.0.0.0</td>
+            <td>/8</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>128 - 191</td>
+            <td>65,534</td>
+            <td>255.255.0.0</td>
+            <td>/16</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>192 - 223</td>
+            <td>254</td>
+            <td>255.255.255.0</td>
+            <td>/24</td>
+        </tr>
+        <tr>
+            <td>D Multicast</td>
+            <td>224 - 239</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td>E Experimental</td>
+            <td>240 - 255</td>
+            <td colspan="3"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
 
 <ul>
     <li>O IP <strong>Público</strong> é fornecido pela sua <strong>ISP</strong> (Internet Service Provider)</li>
@@ -86,7 +134,51 @@
 
 <img src="files/Pasted image 20250804231341.png" alt="Comparação visual entre IPv4 e IPv6">
 
-<br><br>
+<br>
+
+<strong>IPv6 e suas caracteristicas</strong>
+
+<table border="1" style="border-collapse: collapse; text-align: center; width: 80%;">
+    <thead>
+        <tr>
+            <th colspan="3" style="text-align: center;">IPv6 Address Types</th>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <th>Prefix</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Global Unicast</td>
+            <td>2000::/3</td>
+            <td>Endereços públicos roteáveis na Internet.</td>
+        </tr>
+        <tr>
+            <td>Link-Local</td>
+            <td>FE80::/10</td>
+            <td>Usado para comunicação dentro do mesmo link (não roteável).</td>
+        </tr>
+        <tr>
+            <td>Unique Local Address (ULA)</td>
+            <td>FC00::/7 (normalmente FD00::/8)</td>
+            <td>Equivalente aos endereços privados do IPv4, não roteável na Internet.</td>
+        </tr>
+        <tr>
+            <td>Loopback</td>
+            <td>::1</td>
+            <td>Usado para testes na própria máquina (similar ao 127.0.0.1 no IPv4).</td>
+        </tr>
+        <tr>
+            <td>Multicast</td>
+            <td>FF00::/8</td>
+            <td>Usado para enviar pacotes para múltiplos destinos.</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
 
 <strong>MAC Address</strong>
 <ul>
