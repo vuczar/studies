@@ -55,3 +55,14 @@
     <li>Usar <code>import</code> para isso no início do código</li>
     <li>Existem diversas bibliotecas uteis como 'os', 'math'</li>
 </ul>
+
+<ul>
+    <li>Listas : mutável</li>
+    <ul><li>Use [ ] para declarar : <code>variavel = []</code></li></ul>
+    <li>Tuplas : não mutável</li>
+    <ul><li>Use ( ) para declarar : <code>variavel = ()</code></li></ul>
+</ul>
+
+<ul>
+    
+</ul>
