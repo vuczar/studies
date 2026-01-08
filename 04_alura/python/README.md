@@ -64,5 +64,15 @@
 </ul>
 
 <ul>
-    
+    IF,ELIF,ELSE
+    <li>Pode se fazer de forma estruturada ou ternário</li>
+    <ul><li><code>
+        if a % 2:
+            print("even")
+        elif a % 2 and a > 1:
+            print("even with one divisor")
+        else:
+            print("odd")
+    </code></li></ul>
+    <ul><li><code>print("hot" if temperature > 30 else "not too hot" )</code></li></ul>
 </ul>
