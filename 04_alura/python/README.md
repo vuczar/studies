@@ -76,3 +76,34 @@
     </code></li></ul>
     <ul><li><code>print("hot" if temperature > 30 else "not too hot" )</code></li></ul>
 </ul>
+
+<ul>
+    FOR AND WHILE
+    <li>For</li>
+    <ul>
+        <li>
+            <code>for nome in nomes:
+                print(nome)
+            </code>
+        </li>
+        <li>para cada elemento dentro do iterável(nomes), a variável (nome) recebe o valor do elemento </li>
+    </ul>
+    <li>While</li>
+    <ul>
+        <li>
+            <code>
+                while number < 3:
+                    print(number)
+                    number++
+            </code>
+        </li>
+        <li>enquanto a condição for verdade, o loop continua</li>
+    </ul>
+</ul>
+
+<ul>
+    FUNCOES ÚTEIS
+    <li><code>len( )</code> : usado para contar o tamanho da str</li>
+    <li><code>range( )</code> : gera sequencia de numero</li>
+    <li><code>continue</code> :  </li>
+</ul>
