@@ -105,5 +105,5 @@
     FUNCOES ÚTEIS
     <li><code>len( )</code> : usado para contar o tamanho da str</li>
     <li><code>range( )</code> : gera sequencia de numero</li>
-    <li><code>continue</code> :  </li>
+    <li><code>continue</code> : segue pro próximo loop sem executar o que está abaixo </li>
 </ul>
