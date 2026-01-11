@@ -101,9 +101,33 @@
     </ul>
 </ul>
 
+<ul>FUNÇÕES
+    <li>criada a partir do <code>def</code></li>
+    <li>váriaveis criadas dentro de função são locais</li>
+    <li>parametros padrão são declarados <code>nome = Visitante</code>.</li>
+    <li>sempre pesquise as funções built-in</li>
+</ul>
+
 <ul>
-    FUNCOES ÚTEIS
+    FUNÇÕES BUILT-IN
     <li><code>len( )</code> : usado para contar o tamanho da str</li>
     <li><code>range( )</code> : gera sequencia de numero</li>
     <li><code>continue</code> : segue pro próximo loop sem executar o que está abaixo </li>
 </ul>
+
+<ul>
+    FUNÇÕES RECURSIVAS
+    <li>Funções que chama a si mesmo repetidamente até atingir uma condição de parada</li>
+    <ul><li></li></ul>
+</ul>
+
+> [!CAUTION]
+>
+```python
+def fatorial(n):
+    if n == 0:
+        return 1
+    return n * fatorial(n - 1)
+
+print (fatorial(5)) # saida: 120
+```
