@@ -11,7 +11,9 @@
 Bem vindo! Me chamo Vinicius e este é meu bloco de notas virtual.
 
 <details>
-	Sendo direto, esse espaço é meu espaço para registrar meus estudos em tecnologia. Mas porquê?
+	<summary>Mas porquê?.. </summary>
+	
+	Sendo direto, esse espaço é meu espaço para registrar meus estudos em tecnologia.
 
 	Desde que entrei na faculdade à alguns anos, lembro me de um professor que eu nunca se quer tive uma aula com ele, mas foi um dos melhores professores que tive.
 
@@ -42,5 +44,5 @@ Muito simples, atualmente estou separando meus estudos por ferramenta, ou seja, 
 
 Acredito que futuramente irei fazer por conteúdo que é a maneira mais correta. Mas para isso preciso de mais tempo de experiência e somar contéudos diversos.
 
-
+Fique a vontade para dar uma olhada, mas sempre lembrando que este repo, são **NOTAS** e não projetos. Projetos são em outros repositórios.
 
