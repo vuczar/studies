@@ -2,7 +2,11 @@
 <p><em>EN This document is a summary made during the 'Python: Build your first app' course. These are personal notes.</em></p>
 
 <h1>Python</h1>
-<h2>Notas</h2>
+
+<div align = "center">
+	<h2>Notas</h2>
+</div>
+
 
 - CASE PATTERNS
 	- 'snakecase': variaveis, funcoes e métodos
@@ -10,9 +14,9 @@
 	- 'SCREAMING_CASE': constantes
 
 ---
-ASPAS
-- Pode se usar as simples ' ', duplas " ", e triplas """ """
-- A tripla envia tudo que estiver dentro, até quebra de linha.
+- ASPAS
+	- Pode se usar as simples ' ', duplas " ", e triplas """ """
+	- A tripla envia tudo que estiver dentro, até quebra de linha.
 
 ---
 - INTERPOLAÇÃO VARIÁVEIS
@@ -128,4 +132,14 @@ ASPAS
 			return n * fatorial(n - 1)
 
 		print (fatorial(5)) # saida: 120
+		```
+---
+- FUNÇÕES ANÔNIMAS (lambda)
+	- É um tipo com possibilidade de vários argumentos e uma ÚNICA expressão
+		```python
+		# sintaxe
+		# lambda argumentos : expressão
+
+		soma = lambda a, b : a + b
+		print(soma(5,3)) # resultdado deve ser 8
 		```
