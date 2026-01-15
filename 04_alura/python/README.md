@@ -143,3 +143,18 @@
 		soma = lambda a, b : a + b
 		print(soma(5,3)) # resultdado deve ser 8
 		```
+---
+- FUNÇÕES DENTRO DE FUNÇÕES (CLOSURE)
+	- São funções encapsuladas dentro de outras, são úteis para criar ter variáveis permanentes mas sem serem globais
+		```python
+			def multiplicar(y):
+				def calcular(x):
+					return x * y
+			return calcular
+
+			dobro = multiplicar(2)
+			triiplo = multiplicar(3)
+
+			print(f"O dobro de 4 é {dobro(4)}")
+			print(f"O triplo de 4 é {triplo(4)}")
+		```
