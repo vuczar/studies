@@ -9,10 +9,12 @@
 	- 'PascalCase': classes
 	- 'SCREAMING_CASE': constantes
 
+---
 ASPAS
 - Pode se usar as simples ' ', duplas " ", e triplas """ """
 - A tripla envia tudo que estiver dentro, até quebra de linha.
 
+---
 - INTERPOLAÇÃO VARIÁVEIS
 	- f-string :
 		```python
@@ -28,6 +30,7 @@ ASPAS
 		print("I'm %i years old."%(age))
 		```
 
+---
 - FORMATAÇÃO PRINT
 	- <code>sep='\n'</code> : sep determina a separação no print
 		```python
@@ -38,6 +41,7 @@ ASPAS
 		print("O início do termianl deve começar na mesma linha ->", end="")
 		```
 
+---
 - FORMATAÇÃO NUMEROS
 	- f-string : pode ser usado para formatar numeral
 		```python
@@ -51,7 +55,7 @@ ASPAS
 		```python
 		print('O valor arredondado de pi é:', round(pi, 2))
 		```
-
+---
 - INT STR
 	- Lembrar de converter o formato ao usar <code>input()</code>
 		```python	
@@ -59,16 +63,19 @@ ASPAS
 		```
     - Use <code>print(type())</code> sempre que precisar identificar
 
+---
 - BIBLIOTECAS
 	- Usar <code>import</code> para isso no início do código
 	- Existem diversas bibliotecas uteis como 'os', 'math'
 
+---
 - LISTAS TUPLAS DICITONARY
 	- Listas : mutável</li>
 		- Use [ ] para declarar : <code>variavel = []</code>
 	- Tuplas : não mutável
 		- Use ( ) para declarar : <code>variavel = ()</code>
 
+---
 - IF,ELIF,ELSE
 	- Pode se fazer de forma estruturada ou ternário</li>
 		```python
