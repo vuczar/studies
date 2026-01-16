@@ -158,3 +158,5 @@
 			print(f"O dobro de 4 é {dobro(4)}")
 			print(f"O triplo de 4 é {triplo(4)}")
 		```
+---
+
