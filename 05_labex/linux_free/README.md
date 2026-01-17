@@ -1,18 +1,14 @@
 # Practice Linux Free Tutorials
 
-## Languages
-
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
-
 <div align="center">
 <img width="128px" src="https://file.labex.io/path/k5LXo5b82pJm.png">
 </div>
 
 Learn Linux with this comprehensive learning path designed for beginners. These practical Linux courses provide a clear roadmap for mastering Linux administration, from the command-line interface to system administration and shell scripting. Gain real-world experience through hands-on, non-video exercises in an interactive shell playground, focusing on managing Linux systems and automating tasks.
 
-|   Index | Name                                                                                                                                                                                                                       | Difficulty   | Tutorial Link                                                                                                                            | Check |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------|-------|
-|     001 | [📖 Display User and Group Information](https://labex.io/tutorials/linux-display-user-and-group-information-8718)                                                                                                          | Beginner     | [🔗 View](https://labex.io/tutorials/linux-display-user-and-group-information-8718)                                                      | ✅ |
+|   Index | Name                                                                                                                                                                                                                       | Difficulty   | Tutorial Link                                                                                                                            | Check        |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+|     001 | [📖 Display User and Group Information](https://labex.io/tutorials/linux-display-user-and-group-information-8718)                                                                                                          | Beginner     | [🔗 View](https://labex.io/tutorials/linux-display-user-and-group-information-8718)                                                      | ✅ 2026-01-17|
 |     002 | [📖 Delete and Move Files](https://labex.io/tutorials/linux-delete-and-move-files-7777)                                                                                                                                    | Beginner     | [🔗 View](https://labex.io/tutorials/linux-delete-and-move-files-7777)                                                                   | |
 |     003 | [📖 Linux User Identifying](https://labex.io/tutorials/linux-linux-user-identifying-271445)                                                                                                                                | Beginner     | [🔗 View](https://labex.io/tutorials/linux-linux-user-identifying-271445)                                                                | |
 |     004 | [📖 Message Authentication with HMAC in Cryptography](https://labex.io/tutorials/linux-message-authentication-with-hmac-in-cryptography-632760)                                                                            | Beginner     | [🔗 View](https://labex.io/tutorials/linux-message-authentication-with-hmac-in-cryptography-632760)                                      | |
@@ -288,4 +284,3 @@ Learn Linux with this comprehensive learning path designed for beginners. These 
 - 🔗 [Linux Learn more about](https://labex.io/skilltrees/linux)
 - 🔗 [Awesome Programming Courses](https://github.com/labex-labs/awesome-programming-courses)
 - 🔗 [Awesome Programming Projects](https://github.com/labex-labs/awesome-programming-projects)
-
