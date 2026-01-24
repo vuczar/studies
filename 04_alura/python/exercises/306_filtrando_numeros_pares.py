@@ -5,9 +5,7 @@ filtrar apenas os valores pares de uma lista de números informada pelo usuário
 Crie um programa que receba uma lista de números e exiba apenas os pares usando a função filter().
 """
 
-def converter(lista):
-	return [int(x) for x in lista]
-
 numeros = input("Digite os números (separados): ").split()
-nova_lista = converter(numeros)
-print(nova_lista)
+filtrada = filter(lambda x: int(x) % 2 == 0, numeros)
+print("Números pares:", " ".join(filtrada)) # join serve transformar a lista em string com um separador
+
