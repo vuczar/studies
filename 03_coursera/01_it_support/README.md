@@ -89,7 +89,30 @@
 
 - Form factor : Pattern is ATX. With many variation, miniATX, nanoATX, FullATX, ...
 
-- 
+- Data measurement units
+	- Bit : Smallest unit (0 or 1)
+	- Byte: Group of 8 bits (store one character)
+	- Kilobyte (KB) : 1,024 bytes
+	- Megabyte (MB) : Common for music files (~3MB)
+	- Gigabyte (GB) : Current standart for drive capacity
+
+- Types of storage
+	- Hard Disk Drive (HDD)
+		- Mechanical : use spinning platters and read/write arm
+		- Speed : Measure in RPM, higher is faster
+		- Pro : More cheaper
+		- Con : Prone to physical demage due moving parts
+	- Solid State Drive (SSD)
+		- Technology : microchip-based storage
+		- Pro : faster, silent, durable
+		- Con : expansive than HDD
+	- Hybrid
+		- Nobody use, but exist
+		- Combine both
+
+- Communication Interface
+	- SATA : Most common interface : uses cables and support hot swapping (replacing while the PC is on)
+	- NVMe : Modern interface for high-perfomance SSD, use expansion slot for higher bandwidth
 
 <h2>Technical Support Fundamentals</h2>
 <h2>The Bits and Bytes of Computer Networking</h2>
